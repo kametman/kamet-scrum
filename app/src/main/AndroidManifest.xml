@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.kamikazemeteor.kametscrum">
-
+    <uses-feature android:name="android.hardware.sensor.accelerometer"></uses-feature>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/scrum_coffee"
@@ -9,14 +9,18 @@
         android:roundIcon="@mipmap/scrum_coffee"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DisplayScrumActivity"></activity>
+        <activity
+            android:name=".DisplayScrumActivity"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

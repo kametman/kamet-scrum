@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:backgroundTint="@android:color/background_dark"
-    tools:context="com.kamikazemeteor.kametscrum.kametscrum.MainActivity">
+    tools:context="com.kamikazemeteor.kametscrum.MainActivity">
 
     <GridLayout
         android:layout_width="wrap_content"
